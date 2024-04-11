@@ -1,98 +1,108 @@
 /* Color Palette */
 :root {
-    --primary-color: #f4a261;
-    --secondary-color: #e76f51;
-    --accent-color: #2a9d8f;
-    --text-color: #264653;
-    --background-color: #f8f9fa;
-  }
-  
-  /* General Styles */
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
-  
-  /* Header Styles */
-  header {
-    background-color: var(--primary-color);
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    color: white;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  /* Main Content Styles */
-  main {
-    padding: 40px;
-  }
-  
-  .tab-content {
-    display: none;
-  }
-  
-  .tab-content.active {
-    display: block;
-  }
-  
-  section h2 {
-    color: var(--secondary-color);
-  }
-  
-  /* Contact Form Styles */
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  input, textarea {
-    padding: 5px;
-    border: 1px solid var(--accent-color);
-    border-radius: 3px;
-  }
-  
-  button {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  /* Footer Styles */
-  footer {
-    background-color: var(--primary-color);
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
+  --primary-color: #0071e3;
+  --secondary-color: #444444;
+  --accent-color: #86868b;
+  --text-color: #1d1d1f;
+  --background-color: #f5f5f7;
+}
+
+/* General Styles */
+body {
+  font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Header Styles */
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+/* Main Content Styles */
+main {
+  padding: 40px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+section h2 {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+/* Contact Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin-top: 10px;
+  color: var(--secondary-color);
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
