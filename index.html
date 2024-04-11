@@ -3,61 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Apple Website</title>
+  <title>Apple Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>My Apple Website</h1>
     <nav>
+      <div class="logo">
+        <img src="apple-logo.png" alt="Apple Logo">
+      </div>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Mac</a></li>
+        <li><a href="#">iPad</a></li>
+        <li><a href="#">iPhone</a></li>
+        <li><a href="#">Watch</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="tab-content">
-      <h2>Welcome to My Apple Website</h2>
-      <p>This is a simple website built using HTML, CSS, and JavaScript, with no backend server required.</p>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Apple</h1>
+        <p>Discover the latest products and innovations from Apple.</p>
+        <a href="#" class="cta-button">Learn More</a>
+      </div>
+      <div class="hero-image">
+        <img src="hero-image.jpg" alt="Apple Product">
+      </div>
     </section>
 
-    <section id="about" class="tab-content">
-      <h2>About Me</h2>
-      <p>I am a web developer with a passion for creating beautiful and functional websites. This website showcases some of my previous projects.</p>
-    </section>
-
-    <section id="portfolio" class="tab-content">
-      <h2>My Portfolio</h2>
-      <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-        <li>Project 3</li>
-      </ul>
-    </section>
-
-    <section id="contact" class="tab-content">
-      <h2>Get in Touch</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
+    <section class="features">
+      <div class="feature-item">
+        <img src="feature-1.png" alt="Feature 1">
+        <h3>Feature 1</h3>
+        <p>Discover the amazing features of our products.</p>
+      </div>
+      <div class="feature-item">
+        <img src="feature-2.png" alt="Feature 2">
+        <h3>Feature 2</h3>
+        <p>Explore the latest innovations from Apple.</p>
+      </div>
+      <div class="feature-item">
+        <img src="feature-3.png" alt="Feature 3">
+        <h3>Feature 3</h3>
+        <p>Experience the power of Apple's technology.</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2023 My Apple Website. All rights reserved.</p>
+    <p>&copy; 2023 Apple Inc. All rights reserved.</p>
   </footer>
 </body>
 </html>
